@@ -41,23 +41,23 @@ int main()
 	 
 	switch (variant)
 	{
-	case 1:
+	case 0:
 		cout << "Упражнение 1: смотреть в книге на стр.56"<<endl;
 
 		break;
 
-	case 2:
+	case 1:
 
 		cout << "Упражнение 2: смотреть в книге на стр.57" << endl;
 
 		break;
-	case 3:
+	case 2:
 
 		cout << "Упражнение 3: смотреть в книге на стр.58" << endl;
 
 		break;
 
-	case 4:
+	case 3:
 
 		cout << "Упражнение 4: смотреть в книге на стр.59" << endl;
 
