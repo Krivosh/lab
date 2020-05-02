@@ -4,10 +4,10 @@ using namespace std;
 int counter;
 int combin2(int n, int k)
 {
-if ( (n == k) || (k == 0)) {
+  if ( (n == k) || (k == 0)) {
     counter++;
     return 1; }
-counter += 2;
+  counter += 2;
 return combin2(n - 1, k) + combin2(n - 1, k - 1);
 }
 int main()
