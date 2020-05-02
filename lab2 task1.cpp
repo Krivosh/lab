@@ -3,9 +3,6 @@
 #include <stdio.h>
 #include<math.h>
 using namespace std;
-//double f(double t, double y) {
-//    return ((t + y) / 2);
-//}
 double fun(double r,  double d) {
     return((r + d) / 2);
 }
